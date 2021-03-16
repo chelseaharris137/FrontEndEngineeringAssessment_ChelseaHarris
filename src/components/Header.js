@@ -3,7 +3,6 @@ import LogoModule from "./Logo";
 import "../SASS/Header.sass";
 import LeftNav from "./LeftNav";
 import RightNav from "./RightNav";
-import Footer from "./Footer";
 
 const Header = (props) => {
   return (
