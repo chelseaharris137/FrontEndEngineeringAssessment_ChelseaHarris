@@ -1,0 +1,38 @@
+body {
+  overflow-x: hidden;
+}
+
+body.bg-cyan {
+  background: linear-gradient(269.21deg, #edf5f6 9.61%, #afdce2 192.13%);
+}
+
+.bg-blue {
+  background-color: #074c93;
+  color: #fff;
+}
+
+.fixed-footer {
+  padding-bottom: 158px;
+}
+.fixed-footer #ps-footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 99;
+}
+
+.fixed-footer #ps-footer {
+  position: relative;
+  z-index: 1;
+}
+
+#ps-footer .f-nav {
+  justify-content: flex-start;
+}
+#ps-footer .f-nav li {
+  margin-bottom: 5px;
+}
+.fixed-footer {
+  padding-bottom: 75px;
+}
