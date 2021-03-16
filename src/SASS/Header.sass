@@ -1,0 +1,166 @@
+#ps-header
+  position: relative
+  top: 0px
+  left: 0px
+  width: 100%
+  padding: 0px
+
+  ul
+    li
+      padding: 0px 20px
+
+      a
+        font-size: 13px
+        font-family: "Work Sans", sans-serif
+        font-weight: 500
+        line-height: 16px
+        color: #fff
+        display: inline-block
+        padding: 21px 0px
+
+    &.mr-auto
+      padding: 0px 20px
+      position: relative
+
+      &:before
+        content: ""
+        position: absolute
+        top: 50%
+        height: 13px
+        border-left: 1px solid #AFDCE2
+        left: 0px
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        transform: translateY(-50%)
+
+      &:after
+        content: ""
+        position: absolute
+        top: 50%
+        height: 13px
+        border-left: 1px solid #AFDCE2
+        right: 0px
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        transform: translateY(-50%)
+
+      li
+        a
+          position: relative
+
+          &:before
+            content: ""
+            height: 3px
+            background: #fff
+            position: absolute
+            bottom: 0px
+            width: 100%
+            left: 0px
+            opacity: 0
+            visibility: hidden
+            -webkit-transition: all 0.2s
+            -moz-transition: all 0.2s
+            -ms-transition: all 0.2s
+            transition: all 0.2s
+
+        &.active a:before, &:hover a:before
+          opacity: 1
+          visibility: visible
+
+    &.ml-auto li
+      padding: 0px 12px
+
+      &:last-child
+        padding-right: 0px
+
+  .logo-title
+    padding: 0px 40px
+    padding-left: 15px
+
+    a
+      font-family: "Work Sans", sans-serif
+      font-weight: 500
+      font-size: 13px
+      line-height: 16px
+      color: #fff
+      display: inline-block
+      padding: 21px 0px
+      position: relative
+      text-decoration: none
+
+      &:before
+        content: ""
+        height: 3px
+        background: #fff
+        position: absolute
+        bottom: 0px
+        width: 100%
+        left: 0px
+        opacity: 0
+        visibility: hidden
+        -webkit-transition: all 0.2s
+        -moz-transition: all 0.2s
+        -ms-transition: all 0.2s
+        transition: all 0.2s
+
+    &.active a:before, &:hover a:before
+      opacity: 1
+      visibility: visible
+
+  .ps-logo .thumb
+    position: relative
+
+    img
+      width: 31px
+
+    span.count
+      display: inline-block
+      position: absolute
+      background: #DB4D25
+      border: 2px solid #074C93
+      -webkit-border-radius: 50%
+      -moz-border-radius: 50%
+      border-radius: 50%
+      font-size: 11px
+      font-weight: 500
+      width: 18px
+      height: 18px
+      top: -9px
+      right: -9px
+      line-height: 16px
+      text-align: center
+
+      &.dbl-digit
+        font-size: 9px
+
+  .user-name span:first-child
+    font-size: 16px
+    color: #074C93
+    line-height: 25px
+    font-weight: 500
+    width: 26px
+    height: 26px
+    -webkit-border-radius: 50%
+    -moz-border-radius: 50%
+    border-radius: 50%
+    display: inline-block
+    background: linear-gradient(338.13deg, #FFFBD8 0%, #FDDAE0 100.5%)
+    text-align: center
+    text-transform: uppercase
+    margin-right: 24px
+
+ul, ol
+  margin: 0
+  padding: 0
+  list-style: none
+  
+
+ul li
+  list-style: none
+
+a
+  text-decoration: none !important
