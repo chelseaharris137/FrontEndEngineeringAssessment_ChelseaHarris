@@ -8,7 +8,7 @@ const MainContent = (props) => {
     <div className="container" id="custommargin">
       <div className="row">
         <div className="col">
-          <LeftBodyContent />
+          <LeftBodyContent cardData={props.cardData} />
         </div>
 
         <div className="col col-lg-4">
